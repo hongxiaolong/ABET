@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ABET-Client", "ABET-Client\ABET-Client.vcxproj", "{EF06CDE8-11DF-40BC-9933-59743951EC7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ABET-Server", "ABET-Server\ABET-Server.vcxproj", "{75B8B668-9E21-48D7-9AD5-811C826E6C95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF06CDE8-11DF-40BC-9933-59743951EC7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF06CDE8-11DF-40BC-9933-59743951EC7B}.Debug|Win32.Build.0 = Debug|Win32
+		{EF06CDE8-11DF-40BC-9933-59743951EC7B}.Release|Win32.ActiveCfg = Release|Win32
+		{EF06CDE8-11DF-40BC-9933-59743951EC7B}.Release|Win32.Build.0 = Release|Win32
+		{75B8B668-9E21-48D7-9AD5-811C826E6C95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75B8B668-9E21-48D7-9AD5-811C826E6C95}.Debug|Win32.Build.0 = Debug|Win32
+		{75B8B668-9E21-48D7-9AD5-811C826E6C95}.Release|Win32.ActiveCfg = Release|Win32
+		{75B8B668-9E21-48D7-9AD5-811C826E6C95}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

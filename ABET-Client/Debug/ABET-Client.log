@@ -1,0 +1,38 @@
+﻿生成启动时间为 8/29/2013 8:21:18 PM。
+     1>项目“E:\My Code\ABET-Tool\ABET-Client\ABET-Client.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ABET-Client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt soapC.cpp soapClient.cpp stdsoap2.cpp udpclient.cpp
+         udpclient.cpp
+         stdsoap2.cpp
+     1>e:\my code\abet-tool\abet-client\stdsoap2.cpp(832): warning C4244: “return”: 从“std::streamsize”转换到“size_t”，可能丢失数据
+         soapClient.cpp
+         soapC.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ABET-Client.exe.embed.manifest.res" Debug\ABET-Client_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\My Code\ABET-Tool\Debug\ABET-Client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ABET-Client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\My Code\ABET-Tool\Debug\ABET-Client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\My Code\ABET-Tool\Debug\ABET-Client.lib" /MACHINE:X86 "Debug\ABET-Client.exe.embed.manifest.res"
+         Debug\soapC.obj
+         Debug\soapClient.obj
+         Debug\stdsoap2.obj
+         Debug\udpclient.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ABET-Client.exe.embed.manifest" /manifest "Debug\ABET-Client.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ABET-Client.exe.embed.manifest.res" Debug\ABET-Client_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\My Code\ABET-Tool\Debug\ABET-Client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ABET-Client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\My Code\ABET-Tool\Debug\ABET-Client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\My Code\ABET-Tool\Debug\ABET-Client.lib" /MACHINE:X86 "Debug\ABET-Client.exe.embed.manifest.res"
+         Debug\soapC.obj
+         Debug\soapClient.obj
+         Debug\stdsoap2.obj
+         Debug\udpclient.obj
+         ABET-Client.vcxproj -> E:\My Code\ABET-Tool\Debug\ABET-Client.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ABET-Client.unsuccessfulbuild”。
+         正在对“Debug\ABET-Client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\My Code\ABET-Tool\ABET-Client\ABET-Client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.78
